@@ -1,0 +1,2 @@
+model,params_millions,size_mb_in_memory,gflops,inference_ms,runner
+resnet18_scratch,11.177538,42.675697326660156,3.627124738,1.0282373428344727,cecelia

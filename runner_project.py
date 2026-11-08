@@ -47,9 +47,10 @@ from tqdm import tqdm
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # ----------------------------- settings -----------------------------
-SMOKE_TEST = True                       # True = tiny pipeline check; False = real runs
-RUNNER_TAG = "cecelia"                 # EDIT: your name (used in output file names)
-MODELS_TO_RUN = ["resnet18_scratch"]    # EDIT: resnet18_pretrained, vgg16_pretrained,
+SMOKE_TEST = False                       # True = tiny pipeline check; False = real runs
+RUNNER_TAG = "kent"                 # EDIT: your name (used in output file names)
+MODELS_TO_RUN = ["resnet18_scratch","resnet18_pretrained","vgg16_pretrained","mobilenetv2_pretrained","resnet18_scratch","nin_scratch"]   
+ # EDIT: resnet18_pretrained, vgg16_pretrained,
                                         #       mobilenetv2_pretrained, resnet18_scratch, nin_scratch
 
 # Everything below must stay identical across the team.
